@@ -1,5 +1,5 @@
-Sources/Board/board.o: ../Sources/Board/board.c ../Sources/Board/board.h \
- ../Sources/Board/pin_mux.h ../Sources/Board/gpio_pins.h \
+Board/board.o: ../Board/board.c ../Board/board.h ../Board/pin_mux.h \
+ ../Board/gpio_pins.h \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/drivers/inc/fsl_gpio_driver.h \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_port_hal.h \
  ../SDK/platform/devices/fsl_device_registers.h \
@@ -31,11 +31,11 @@ Sources/Board/board.o: ../Sources/Board/board.c ../Sources/Board/board.h \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/drivers/inc/fsl_i2c_master_driver.h \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_i2c_hal.h
 
-../Sources/Board/board.h:
+../Board/board.h:
 
-../Sources/Board/pin_mux.h:
+../Board/pin_mux.h:
 
-../Sources/Board/gpio_pins.h:
+../Board/gpio_pins.h:
 
 C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/drivers/inc/fsl_gpio_driver.h:
 

@@ -23,7 +23,7 @@ Sources/Utilities/fsl_debug_console.o: \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_mcg_hal_modes.h \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_mcg_hal.h \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_osc_hal.h \
- C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/utilities/src/print_scan.h
+ ../Sources/Utilities/print_scan.h
 
 ../SDK/platform/devices/fsl_device_registers.h:
 
@@ -71,4 +71,4 @@ C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx1
 
 C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_osc_hal.h:
 
-C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/utilities/src/print_scan.h:
+../Sources/Utilities/print_scan.h:

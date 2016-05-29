@@ -41,18 +41,18 @@
 #define CLOCK_RUN  2U
 #define CLOCK_NUMBER_OF_CONFIGURATIONS 3U
 
-#ifndef CLOCK_INIT_CONFIG
+#ifndef CLOCK_INIT_CONFIG				/* configuration the clock mode ( at run mode) */
 #define CLOCK_INIT_CONFIG CLOCK_RUN
 #endif
 
 #if (CLOCK_INIT_CONFIG == CLOCK_RUN)
-#define CORE_CLOCK_FREQ 96000000U
+#define CORE_CLOCK_FREQ 96000000U		/* configuration the core clock when run mode  */
 #else
 #define CORE_CLOCK_FREQ 4000000U
 #endif
 
 /* OSC0 configuration. */
-#define OSC0_XTAL_FREQ 50000000U
+#define OSC0_XTAL_FREQ 50000000U		/* configuration the frequency of main osc0 */
 #define OSC0_SC2P_ENABLE_CONFIG  false
 #define OSC0_SC4P_ENABLE_CONFIG  false
 #define OSC0_SC8P_ENABLE_CONFIG  false
@@ -78,8 +78,9 @@
 #define RTC_SC8P_ENABLE_CONFIG       false
 #define RTC_SC16P_ENABLE_CONFIG      false
 #define RTC_OSC_ENABLE_CONFIG        false
+#define BOARD_RTC_CLK_FREQUENCY     32768U;
 
-//#define BOARD_RTC_CLK_FREQUENCY     32768U;
+
 /* The UART to use for debug messages. */
 #ifndef BOARD_DEBUG_UART_INSTANCE
     #define BOARD_DEBUG_UART_INSTANCE   2
@@ -89,15 +90,15 @@
     #define BOARD_DEBUG_UART_BAUD       115200
 #endif
 
-/* This define to use for power manager demo */
-#define BOARD_LOW_POWER_UART_BAUD       9600
-
-#define BOARD_USE_UART
-#define PM_DBG_UART_IRQ_HANDLER         UART2_RX_TX_IRQHandler
-#define PM_DBG_UART_IRQn                UART2_RX_TX_IRQn
 
 /* Define feature for the low_power_demo */
 #define FSL_FEATURE_HAS_VLLS2 (1)
+
+/* I2C device configuration */
+#define FXAS21002_address				0x42
+#define FXAS21002_baudRate				400			/*   baudRate = 400 kbps */
+#define MMA8451_address					0x3a
+#define MMA8451_baudRate				400			/*   baudRate = 400 kbps */
 
 /* board gpio mapping */
 #define kGpioKeyUp 						kGpioPTC0
@@ -144,6 +145,7 @@ void Hardware_Init(void);
 void dbg_uart_init(void);
 /*This function to used for power manager demo*/
 void disable_unused_pins(void);
+
 void enable_unused_pins(void);
 /* Function to initialize clock base on board configuration. */
 void BOARD_ClockInit(void);

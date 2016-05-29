@@ -38,8 +38,8 @@
 #include "MK60D10.h"
 #include <stdio.h>
 
-//#define GPIO_INTERRUPT	1
-uint32_t time_;
+
+
 void delay_ms(uint32_t t);
 int main(void)
 {
@@ -52,17 +52,13 @@ int main(void)
 	delay_ms(100000);
     /* This for loop should be replaced. By default this loop allows a single stepping. */
     for (;;) {
-    	//GPIO_DRV_TogglePinOutput(kGpioLED1);
-    	debug_printf("\033[2J\033[1H");
-    	debug_printf("\014 hello world\n\r");
-    	//debug_printf("\033");
-
-    	delay_ms(1000);
 
     }
     /* Never leave main */
     return 0;
 }
+
+
 void delay_ms(uint32_t t)
 {
 	static uint8_t	i;
@@ -74,11 +70,10 @@ void delay_ms(uint32_t t)
 
 }
 
-void PIT0_IRQHandler(void)
-{
-	PIT_DRV_ClearIntFlag(0,0);
-	GPIO_DRV_TogglePinOutput(kGpioLED1);
-}
+
+
+
+
 ////////////////////////////////////////////////////////////////////////////////
 // EOF
 ////////////////////////////////////////////////////////////////////////////////

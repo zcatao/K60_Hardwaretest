@@ -190,6 +190,7 @@ void BOARD_ClockInit(void)
 
 void dbg_uart_init(void)
 {
+
     configure_uart_pins(BOARD_DEBUG_UART_INSTANCE);
 
     DbgConsole_Init(BOARD_DEBUG_UART_INSTANCE, BOARD_DEBUG_UART_BAUD, kDebugConsoleUART);

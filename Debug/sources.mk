@@ -28,6 +28,8 @@ S_UPPER_DEPS :=
 SUBDIRS := \
 Sources \
 Sources/Utilities \
-Sources/Board \
 Project_Settings/Startup_Code \
+Board \
+Board/mma8451 \
+Board/FXAS21002 \
 

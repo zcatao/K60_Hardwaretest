@@ -119,6 +119,8 @@ void configure_rtc_pins(uint32_t instance);
 
 void configure_adc_pins(uint32_t instance);
 
+void configure_uart_pins(uint32_t instance);
+
 /* END pin_mux. */
 #endif /* #ifndef __pins_H_ */
 /*!

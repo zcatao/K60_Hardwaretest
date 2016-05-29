@@ -1,4 +1,6 @@
-Sources/Board/pin_mux.o: ../Sources/Board/pin_mux.c \
+Sources/user_pit_irq.o: ../Sources/user_pit_irq.c \
+ C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/drivers/inc/fsl_pit_driver.h \
+ C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_pit_hal.h \
  ../SDK/platform/devices/fsl_device_registers.h \
  ../SDK/platform/devices/MK60D10/include/MK60D10.h \
  ../SDK/platform/CMSIS/Include/core_cm4.h \
@@ -9,11 +11,11 @@ Sources/Board/pin_mux.o: ../Sources/Board/pin_mux.c \
  ../SDK/platform/devices/MK60D10/include/MK60D10_extension.h \
  ../SDK/platform/devices/MK60D10/include/MK60D10.h \
  ../SDK/platform/devices/MK60D10/include/fsl_bitaccess.h \
- ../SDK/platform/devices/MK60D10/include/MK60D10_features.h \
- C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_port_hal.h \
- C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_sim_hal.h \
- c:\users\yangs\onedrive\文档\竞赛\飞思卡尔\2016年\开发环境\sdk_1.3_mk60dn512xxx10\platform\hal\src\sim\mk60d10\fsl_sim_hal_mk60d10.h \
- ../Sources/Board/pin_mux.h
+ ../SDK/platform/devices/MK60D10/include/MK60D10_features.h
+
+C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/drivers/inc/fsl_pit_driver.h:
+
+C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_pit_hal.h:
 
 ../SDK/platform/devices/fsl_device_registers.h:
 
@@ -36,11 +38,3 @@ Sources/Board/pin_mux.o: ../Sources/Board/pin_mux.c \
 ../SDK/platform/devices/MK60D10/include/fsl_bitaccess.h:
 
 ../SDK/platform/devices/MK60D10/include/MK60D10_features.h:
-
-C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_port_hal.h:
-
-C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_sim_hal.h:
-
-c:\users\yangs\onedrive\文档\竞赛\飞思卡尔\2016年\开发环境\sdk_1.3_mk60dn512xxx10\platform\hal\src\sim\mk60d10\fsl_sim_hal_mk60d10.h:
-
-../Sources/Board/pin_mux.h:

@@ -9,9 +9,11 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Sources/Utilities/subdir.mk
--include Sources/Board/subdir.mk
 -include Sources/subdir.mk
 -include Project_Settings/Startup_Code/subdir.mk
+-include Board/mma8451/subdir.mk
+-include Board/FXAS21002/subdir.mk
+-include Board/subdir.mk
 -include subdir.mk
 -include objects.mk
 

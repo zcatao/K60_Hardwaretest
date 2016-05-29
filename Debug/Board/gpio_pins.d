@@ -1,5 +1,4 @@
-Sources/Board/gpio_pins.o: ../Sources/Board/gpio_pins.c \
- ../Sources/Board/gpio_pins.h \
+Board/gpio_pins.o: ../Board/gpio_pins.c ../Board/gpio_pins.h \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/drivers/inc/fsl_gpio_driver.h \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_port_hal.h \
  ../SDK/platform/devices/fsl_device_registers.h \
@@ -15,7 +14,7 @@ Sources/Board/gpio_pins.o: ../Sources/Board/gpio_pins.c \
  ../SDK/platform/devices/MK60D10/include/MK60D10_features.h \
  C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/hal/inc/fsl_gpio_hal.h
 
-../Sources/Board/gpio_pins.h:
+../Board/gpio_pins.h:
 
 C:\Users\yangs\OneDrive\文档\竞赛\飞思卡尔\2016年\开发环境\SDK_1.3_MK60DN512xxx10/platform/drivers/inc/fsl_gpio_driver.h:
 
